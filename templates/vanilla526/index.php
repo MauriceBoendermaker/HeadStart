@@ -1,30 +1,55 @@
 <?php
 
+namespace database1;
+
+use database1\database_vanilla526;
+
+$db_host = "localhost";
+$db_user = "root";
+$db_pass = "";
+$db_name = "headstart";
+$db_port = null;
+
+//require_once '../../database/vanilla526.php';
+//require '../../config.php';
+//require '../../database/database.php';
+//require '../../database/core.php';
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-include "../../database/core.php";
+//include "../../database/core.php";
+
+//include_once './../../config.php';
+//include_once './../../database/database.php';
+
+require_once 'database_vanilla526.php';
+require_once 'vanilla526.php';
+
+$db = new database_vanilla526($db_host, $db_user, $db_pass, $db_name, $db_port);
+
+$templateData = $db->getVanilla526();
 
 foreach ($templateData as $data) {
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $data->seo_lang(); ?>">
+<html lang="<?php echo $data->getSeoLang(); ?>">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title><?php echo $data->getTitle(); ?></title>
+    <title><?php echo $data->getTitle(); ?> | test</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="title" content="<?php echo $data->seo_title(); ?>">
-	<meta name="author" content="<?php echo $data->seo_author(); ?>">
-	<meta name="copyright" content="<?php echo $data->seo_copy(); ?>">
-	<meta name="description" content="<?php echo $data->seo_desc(); ?>">
-	<meta name="keywords" content="<?php echo $data->seo_keywords(); ?>">
-	<meta name="url" content="<?php echo $data->seo_url(); ?>">
-	<meta name="image" content="<?php echo $data->seo_image(); ?>">
+	<meta name="title" content="<?php echo $data->getSeoTitle(); ?>">
+	<meta name="author" content="<?php echo $data->getSeoAuthor(); ?>">
+	<meta name="copyright" content="<?php echo $data->getSeoCopy(); ?>">
+	<meta name="description" content="<?php echo $data->getSeoDesc(); ?>">
+	<meta name="keywords" content="<?php echo $data->getSeoKeywords(); ?>">
+	<meta name="url" content="<?php echo $data->getSeoUrl(); ?>">
+	<meta name="image" content="<?php echo $data->getSeoImage(); ?>">
 
 <!--    <link rel="apple-touch-icon" href="apple-touch-icon.png">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
