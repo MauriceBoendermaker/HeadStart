@@ -106,7 +106,7 @@ SET time_zone = "+00:00";
 // CompanyName VARCHAR(50)
 */
 
-CREATE TABLE IF NOT EXISTS `vanilla526_seo` (
+CREATE TABLE IF NOT EXISTS `vanilla526` (
     `id` int(11) NOT NULL,
     `title` varchar(80) NOT NULL,
     `seo_lang` varchar(5) NOT NULL,
@@ -117,21 +117,11 @@ CREATE TABLE IF NOT EXISTS `vanilla526_seo` (
     `seo_keywords` varchar(250) NOT NULL,
     `seo_url` varchar(250) NOT NULL,
     `seo_image` varchar(250) NOT NULL,
-    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-CREATE TABLE IF NOT EXISTS `vanilla526_nav` (
-    `id` int(11) NOT NULL,
     `NavItem1` varchar(25) NOT NULL,
     `NavItem2` varchar(25) NOT NULL,
     `NavItem3` varchar(25) NOT NULL,
     `NavItem4` varchar(25) NOT NULL,
     `NavItem5` varchar(25) NOT NULL,
-    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-CREATE TABLE IF NOT EXISTS `vanilla526_carousel` (
-    `id` int(11) NOT NULL,
     `CarouselImg1` varchar(250) NOT NULL,
     `CarouselText1` varchar(100) NOT NULL,
     `CarouselSub1` varchar(100) NOT NULL,
@@ -156,11 +146,6 @@ CREATE TABLE IF NOT EXISTS `vanilla526_carousel` (
     `CarouselImg8` varchar(250) NOT NULL,
     `CarouselText8` varchar(100) NOT NULL,
     `CarouselSub8` varchar(100) NOT NULL,
-    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
-CREATE TABLE IF NOT EXISTS `vanilla526` (
-    `id` int(11) NOT NULL,
     `Headline` varchar(50) NOT NULL,
     `StrongSubHeadline` varchar(50) NOT NULL,
     `SubHeadline` varchar(50) NOT NULL,
