@@ -1,6 +1,6 @@
 <?php
 
-namespace database1;
+namespace vanilla526;
 
 use database1\database_vanilla526;
 
