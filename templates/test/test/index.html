@@ -1,0 +1,289 @@
+
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+<div id="userAlertsWrapper">
+
+</div>
+
+<script>
+    var data = [{
+    //     "Category": "1",
+    //     "ItemTitle": "1111",
+    //     "ItemUrl": "http://piedev/Lists/Messages/272_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Adi Golan",
+    //     "ItemCreatedDate": "03/05/2016 14:37",
+    //     "ItemModifiedDate": "03/05/2016 14:37",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "1",
+    //     "ItemTitle": "1111",
+    //     "ItemUrl": "http://piedev/Lists/Messages/273_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Yosefa Cohen",
+    //     "ItemCreatedDate": "05/05/2016 11:37",
+    //     "ItemModifiedDate": "05/05/2016 11:37",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "3",
+    //     "ItemTitle": "3333",
+    //     "ItemUrl": "http://piedev/Lists/Messages/274_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "08/05/2016 15:46",
+    //     "ItemModifiedDate": "08/05/2016 15:46",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "4",
+    //     "ItemTitle": "4444",
+    //     "ItemUrl": "http://piedev/Lists/Messages/276_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Elvira Fain",
+    //     "ItemCreatedDate": "15/05/2016 11:36",
+    //     "ItemModifiedDate": "15/05/2016 11:36",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "5",
+    //     "ItemTitle": "5555",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/299_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "06/06/2016 16:51",
+    //     "ItemModifiedDate": "06/06/2016 16:52",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "6",
+    //     "ItemTitle": "6666",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/301_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "08/06/2016 12:40",
+    //     "ItemModifiedDate": "08/06/2016 12:40",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "7",
+    //     "ItemTitle": "7777",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/302_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "08/06/2016 13:30",
+    //     "ItemModifiedDate": "08/06/2016 13:30",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "8",
+    //     "ItemTitle": "8888",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/303_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "08/06/2016 15:34",
+    //     "ItemModifiedDate": "08/06/2016 15:34",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "9",
+    //     "ItemTitle": "9999",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/304_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "09/06/2016 14:35",
+    //     "ItemModifiedDate": "09/06/2016 14:35",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "10",
+    //     "ItemTitle": "1010",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/305_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "13/06/2016 15:57",
+    //     "ItemModifiedDate": "13/06/2016 15:57",
+    //     "ItemModifiedBy": null
+    // }, {
+    //     "Category": "11",
+    //     "ItemTitle": "1111",
+    //     "ItemUrl": "http://piedev/myiscar/Lists/SalesAndDiscounts/306_.000",
+    //     "ItemAttachedFileUrl": null,
+    //     "ItemAuthor": "Einat Shahar-Dekel",
+    //     "ItemCreatedDate": "16/06/2016 12:00",
+    //     "ItemModifiedDate": "16/06/2016 12:00",
+    //     "ItemModifiedBy": null
+	//
+
+
+
+            "id": "526",
+            "theme": "Vanilla 526",
+            "chapter": [
+                {
+                    "id": 0,
+                    "name": "Pagina instellingen",
+                    "elements": [
+                        {
+                            "title": "Pagina titel"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "SEO",
+                    "elements": [
+                        {
+                            "seo_lang": "Taal",
+                            "seo_title": "Titel",
+                            "seo_author": "Auteur",
+                            "seo_copy": "Copyright",
+                            "seo_description": "Beschrijving",
+                            "seo_keywords": "Keywords",
+                            "seo_url": "URL",
+                            "seo_imgage": "Afbeelding"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Navigatie",
+                    "elements": [
+                        {
+                            "NavItem1": "Pagina 1",
+                            "NavItem2": "Pagina 2",
+                            "NavItem3": "Pagina 3",
+                            "NavItem4": "Pagina 4",
+                            "NavItem5": "Pagina 5"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Header",
+                    "elements": [
+                        {
+                            "Headline": "Koptekst",
+                            "SubHeadline": "Subtekst",
+                            "HeaderCtaBtn": "Call-to-action knop"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Footer",
+                    "elements": [
+                        {
+                            "CompanyName": "Naam"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Pagina elementen",
+                    "elements": [
+                        {
+                            "P2Header": "Pagina 2 koptekst",
+                            "P2HeaderText": "Subtekst",
+                            "P2HeaderListItem1": "Punt 1",
+                            "P2HeaderListItem2": "Punt 2",
+                            "P2HeaderListItem3": "Punt 3",
+                            "P2HeaderListItem4": "Punt 4",
+                            "P2HeaderCtaBtn": "Call-to-action knop",
+                            "P2BoxTitle1": "Box 1 - Titel",
+                            "P2BoxText1": "Box 1 - Tekst",
+                            "P2BoxTitle2": "Box 2 - Titel",
+                            "P2BoxText2": "Box 2 - Tekst",
+                            "P2BoxTitle3": "Box 3 - Titel",
+                            "P2BoxText3": "Box 3 - Tekst",
+                            "P2BoxTitle4": "Box 4 - Titel",
+                            "P2BoxText4": "Box 4 - Tekst",
+                            "TabImg1": "Tab 1 - Afbeelding",
+                            "TabText1": "Tab 1 - Tekst",
+                            "TabImg2": "Tab 2 - Afbeelding",
+                            "TabText2": "Tab 2 - Tekst",
+                            "TabImg3": "Tab 3 - Afbeelding",
+                            "TabText3": "Tab 3 - Tekst",
+                            "TabImg4": "Tab 4 - Afbeelding",
+                            "TabText4": "Tab 4 - Tekst",
+                            "TabItem1": "Tab 1 - Knop tekst",
+                            "TabItem2": "Tab 2 - Knop tekst",
+                            "TabItem3": "Tab 3 - Knop tekst",
+                            "TabItem4": "Tab 4 - Knop tekst"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Slider",
+                    "elements": [
+                        {
+                            "CarouselImg1": "Slide 1 (Afbeelding)",
+                            "CarouselText1": "Slide 1 (Tekst)",
+                            "CarouselSub1": "Slide 1 (Subtekst)",
+                            "CarouselImg2": "Slide 2 (Afbeelding)",
+                            "CarouselText2": "Slide 2 (Tekst)",
+                            "CarouselSub2": "Slide 2 (Subtekst)",
+                            "CarouselImg3": "Slide 3 (Afbeelding)",
+                            "CarouselText3": "Slide 3 (Tekst)",
+                            "CarouselSub3": "Slide 3 (Subtekst)",
+                            "CarouselImg4": "Slide 4 (Afbeelding)",
+                            "CarouselText4": "Slide 4 (Tekst)",
+                            "CarouselSub4": "Slide 4 (Subtekst)",
+                            "CarouselImg5": "Slide 5 (Afbeelding)",
+                            "CarouselText5": "Slide 5 (Tekst)",
+                            "CarouselSub5": "Slide 5 (Subtekst)",
+                            "CarouselImg6": "Slide 6 (Afbeelding)",
+                            "CarouselText6": "Slide 6 (Tekst)",
+                            "CarouselSub6": "Slide 6 (Subtekst)",
+                            "CarouselImg7": "Slide 7 (Afbeelding)",
+                            "CarouselText7": "Slide 7 (Tekst)",
+                            "CarouselSub7": "Slide 7 (Subtekst)",
+                            "CarouselImg8": "Slide 8 (Afbeelding)",
+                            "CarouselText8": "Slide 8 (Tekst)",
+                            "CarouselSub8": "Slide 8 (Subtekst)"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "Typografie"
+                },
+                {
+                    "id": 8,
+                    "name": "Huisstijl"
+                }
+            ]
+
+
+    }];
+    var cat = {}
+    data.forEach(function(item) {
+        if(!(item.theme in cat))
+            cat[item.theme] = [item]
+        else
+            cat[item.theme].push(item)
+    })
+    console.log(cat)
+    var html = $.map(cat, function(body, category) {
+        return "<h3>++++" + category + "</h3>" +
+            "<div>" + $.map(body, function(item, i) {
+                console.log(i, item)
+                return "<h3>>> " + item.chapter[0].name + "</h3>" +
+                    "<div>" + $.map(item, function(line, key) {
+                        // console.log("LOG: " + i, item)
+                        // console.log("KEY: " + line)
+                        console.log("MAP: " + $.map)
+                        return "<h3>"+key+"</h3><div>"+line+"</div>"
+                    }).join("") + "</div>"
+            }).join("") + "</div>"
+    }).join("")
+    $(function(){
+        console.log(html)
+        $("#userAlertsWrapper").append(html)
+
+        $("#userAlertsWrapper").children("div").children("div").accordion()
+        $("#userAlertsWrapper").children("div").accordion()
+
+        $("#userAlertsWrapper").accordion()
+
+    })
+    console.log(html)
+</script>
