@@ -2,30 +2,10 @@
 
 namespace vanilla526;
 
-use database1\database_vanilla526;
+require '../../config.php';
 
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "headstart";
-$db_port = null;
-
-//require_once '../../database/vanilla526.php';
-//require '../../config.php';
-//require '../../database/database.php';
-//require '../../database/core.php';
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-//include "../../database/core.php";
-
-//include_once './../../config.php';
-//include_once './../../database/database.php';
-
-require_once 'database_vanilla526.php';
-require_once 'vanilla526.php';
+require_once 'database/database_vanilla526.php';
+require_once 'database/vanilla526.php';
 
 $db = new database_vanilla526($db_host, $db_user, $db_pass, $db_name, $db_port);
 
@@ -39,7 +19,7 @@ foreach ($templateData as $data) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title><?php echo $data->getTitle(); ?> | test</title>
+    <title><?php echo $data->getTitle(); ?></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
