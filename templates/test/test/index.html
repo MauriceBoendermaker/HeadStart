@@ -194,20 +194,9 @@
             "element3": "Call-to-action knop"
         }];
 
-    }];
 
-    function CreateTableFromJSON(array) {
-        var table = document.createElement("table");                             // the table elements
 
-        var col = Object.keys(array[0]);                                         // the columns names (I think taking the keys of the first object will suffice)
 
-        // HEADER:
-        var tr = table.insertRow(-1);                                            // the header row
-        col.forEach(function(key) {                                              // for each key in col
-            var th = document.createElement("th");                                 // create a header cell
-            th.textContent = key;                                                  // use textContent instead of innerHTML (it's better)
-            tr.appendChild(th);
-        });
 
         // ROWS:
         array.forEach(function(obj) {                                            // for each object obj in company_info
