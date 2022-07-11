@@ -299,14 +299,47 @@
 
 
 
-    // var company_info = [{"id":1,"company_name":"ACompany","established":1999,"industry":"Tech","contacts":[{"first_name":"AAFirst","last_name":"AALast","position":"CEO"},{"first_name":"ABFirst","last_name":"ABLast","position":"CTO"}]},{"id":2,"company_name":"BCompany","established":1998,"industry":"Med","contacts":[{"first_name":"BAFirst","last_name":"BALast","position":"CEO"},{"first_name":"BBFirst","last_name":"BBLast","position":"CTO"}]},{"id":3,"company_name":"CCompany","established":1997,"industry":"Ivest","contacts":[{"first_name":"CAFirst","last_name":"CALast","position":"CEO"},{"first_name":"CBFirst","last_name":"CBLast","position":"CTO"}]},{"id":4,"company_name":"DCompany","established":1996,"industry":"Tech","contacts":[{"first_name":"DAFirst","last_name":"DALast","position":"CEO"},{"first_name":"DBFirst","last_name":"DBLast","position":"CTO"}]},{"id":5,"company_name":"ECompany","established":1995,"industry":"Med","contacts":[{"first_name":"EAFirst","last_name":"EALast","position":"CEO"},{"first_name":"EBFirst","last_name":"EBLast","position":"CTO"}]}];
+    var cat = {}
+    data2.forEach(function(item) {
+        if(!(item.chapter in cat))
+            cat[item.chapter] = [item]
+        else
+            cat[item.chapter].push(item)
+    })
+    console.log(cat)
+    var html = $.map(cat, function(body, category) {
+        return "<h3>" + category + "</h3>" +
+            "<div>" + $.map(body, function(item, i) {
+                console.log(i, item)
+                return "<h3>AAA" + item.type + "</h3>" + format(item)
+            }).join("") + "</div>"
+    }).join("")
+    function format(item){
+        document.write("<div id='TestOutput'></div>");
 
-    CreateTableFromJSON(data);
+        if (item.type === "Basis") {
+            document.getElementById("TestOutput").innerHTML = "BasisInfo";
+        } else {
+            document.getElementById("TestOutput").innerHTML = "OtherInfo";
+        }
+
+
+
+        return "<div>" + $.map(item, function(line, key) {
+            return "<h4>++"+key+"</h4><div>"+line+"</div>"
+        }).join("") + "</div>"
+    }
+    $(function(){
+        console.log(html)
+        $("#userAlertsWrapper").append(html)
+
+        $("#userAlertsWrapper").children("div").accordion()
+
+        $("#userAlertsWrapper").accordion()
 
 
 
 
-
-
-
+    })
+    console.log(html)
 </script>
