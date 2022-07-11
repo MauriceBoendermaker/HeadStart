@@ -297,29 +297,7 @@
     //     "ItemModifiedBy": null
     // }];
 
-        // ROWS:
-        array.forEach(function(obj) {                                            // for each object obj in company_info
-            var tr = table.insertRow(-1);                                          // create a row for it
-            col.forEach(function(key) {                                            // and for each key in col
-                var tabCell = tr.insertCell(-1);                                     // create a cell
-                if (Array.isArray(obj[key])) {                                       // if the current value is an array, then
-                    obj[key].forEach(function(element) {                               // for each entry in that array
-                        var div = document.createElement("div");                         // create a div and fill it
-                        // div.textContent = element.name + " " + element.name + ", " + element[0].elements[0].title;
-                        console.log(element);
-                        console.log("OBJ KEY" + obj[key]);
-                        tabCell.appendChild(div);                                        // then add the div to the current cell
-                    });
-                } else {                                                             // otherwise, if the value is not an array (it's a string)
-                    tabCell.textContent = obj[key];                                    // add it as text
-                }
-            });
-        });
 
-        var divContainer = document.getElementById("showData");
-        divContainer.innerHTML = "";
-        divContainer.appendChild(table);
-    }
 
     // var company_info = [{"id":1,"company_name":"ACompany","established":1999,"industry":"Tech","contacts":[{"first_name":"AAFirst","last_name":"AALast","position":"CEO"},{"first_name":"ABFirst","last_name":"ABLast","position":"CTO"}]},{"id":2,"company_name":"BCompany","established":1998,"industry":"Med","contacts":[{"first_name":"BAFirst","last_name":"BALast","position":"CEO"},{"first_name":"BBFirst","last_name":"BBLast","position":"CTO"}]},{"id":3,"company_name":"CCompany","established":1997,"industry":"Ivest","contacts":[{"first_name":"CAFirst","last_name":"CALast","position":"CEO"},{"first_name":"CBFirst","last_name":"CBLast","position":"CTO"}]},{"id":4,"company_name":"DCompany","established":1996,"industry":"Tech","contacts":[{"first_name":"DAFirst","last_name":"DALast","position":"CEO"},{"first_name":"DBFirst","last_name":"DBLast","position":"CTO"}]},{"id":5,"company_name":"ECompany","established":1995,"industry":"Med","contacts":[{"first_name":"EAFirst","last_name":"EALast","position":"CEO"},{"first_name":"EBFirst","last_name":"EBLast","position":"CTO"}]}];
 
@@ -331,37 +309,4 @@
 
 
 
-    // const cat = {};
-    // console.log("CAT: " + cat);
-    // data.forEach(function(item) {
-    //     if(!(item.chapter[2].name in cat))
-    //         cat[item.chapter[2].name] = [item]
-    //     else
-    //         cat[item.chapter[2].name].push(item)
-    // })
-    // console.log(cat)
-    // var html = $.map(cat, function(body, category) {
-    //     return "<h3>++++" + category + "</h3>" +
-    //         "<div>" + $.map(body, function(item, i) {
-    //             console.log(i, item)
-    //             return "<h3>>> " + item.chapter[0].name + "</h3>" +
-    //                 "<div>" + $.map(item, function(line, key) {
-    //                     // console.log("LOG: " + i, item)
-    //                     // console.log("KEY: " + line)
-    //                     // console.log("MAP: " + $.map)
-    //                     return "<h3>(( " + key + "</h3><div>" + line + "</div>"
-    //             }).join("") + "</div>"
-    //         }).join("") + "</div>"
-    // }).join("");
-    // $(function(){
-    //     console.log(html)
-    //     $("#userAlertsWrapper").append(html)
-	//
-    //     $("#userAlertsWrapper").children("div").children("div").accordion()
-    //     $("#userAlertsWrapper").children("div").accordion()
-	//
-    //     $("#userAlertsWrapper").accordion()
-	//
-    // })
-    // console.log(html)
 </script>
