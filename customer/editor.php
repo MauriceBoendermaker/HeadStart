@@ -1,5 +1,4 @@
 <?php
-include_once 'database/database.php';
 include "../include/head_customer.php";
 
 $db = new database\Database($db_host, $db_user, $db_pass, $db_name, $db_port);
