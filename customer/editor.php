@@ -5,6 +5,7 @@ $db = new database\Database($db_host, $db_user, $db_pass, $db_name, $db_port);
 $herbergen = $db->getHerbergen();
 
 
+foreach ($templateDataAll as $templateData) {
 ?>
 <body>
 	<div class="container float-start">
@@ -53,4 +54,7 @@ $herbergen = $db->getHerbergen();
 		</div>
 	</div>
 </body>
+<?php
+}
+?>
 </html>
