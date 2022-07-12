@@ -1,7 +1,7 @@
 <?php
 //using the Database class
 include_once '../config.php';
-include_once '../database/database.php';
+//include_once '../database/database.php';
 
 function endsWith($string, ...$endString)
 {
@@ -17,11 +17,11 @@ function endsWith($string, ...$endString)
 	return false;
 }
 
-$db = new database\Database($db_host, $db_user, $db_pass, $db_name, $db_port);
-$tests = $db->getTests();
-
-$id = -1;
-$test = $db->getTestByID($id);
+//$db = new database\Database($db_host, $db_user, $db_pass, $db_name, $db_port);
+//$tests = $db->getTests();
+//
+//$id = -1;
+//$test = $db->getTestByID($id);
 
 ?>
 <!DOCTYPE html>
