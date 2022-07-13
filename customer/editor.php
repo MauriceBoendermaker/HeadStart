@@ -1,7 +1,6 @@
 <?php
 
 $db = new database\Database($db_host, $db_user, $db_pass, $db_name, $db_port);
-$herbergen = $db->getHerbergen();
 include_once '../config.php';
 
 
