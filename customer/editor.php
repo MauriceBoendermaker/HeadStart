@@ -17,6 +17,7 @@ $configFile = $templateName . "_config.json";
 
 
 
+$jsonData = file_get_contents("../templates/vanilla526/vanilla526_config.json");
 
 
 foreach ($characters as $key => $value1) {
