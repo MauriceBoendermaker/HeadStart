@@ -118,6 +118,31 @@ foreach ($templateDataAll as $templateData) {
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.send("x=" + dbParam);
 </script>
+
+<!-- Title -->
+<script>
+    var queryString = "<?php echo $configFile ?>"; // location.search.substring(1);
+    var localFile = queryString;
+
+    var obj, dbParam, xmlhttp, myObj, x, txt2 = "";
+    dbParam = JSON.stringify(obj);
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+
+        if (this.readyState == 4 && this.status == 200) {
+            myObj = JSON.parse(this.responseText);
+            txt2 += "<div style='border: 1px solid purple; background-color: rgba(100, 100, 100, 0.5); height: auto; width: 800px;'>";
+            for (x in myObj) {
+                txt2 += "<h2>Title: " + myObj[x].theme + "</h2>";
+            }
+            txt2 += "</div>";
+            document.getElementById("TITLEoutput").innerHTML = txt2;
+        }
+    };
+    xmlhttp.open("GET", localFile, true);
+    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xmlhttp.send("x=" + dbParam);
+</script>
 </body>
 <?php
 }
