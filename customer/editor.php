@@ -68,6 +68,31 @@ foreach ($templateDataAll as $templateData) {
 <p id="LANGoutput"></p><!-- Language -->
 <p id="TITLEoutput"></p><!-- Title -->
 <div id="answers"></div>
+
+<!-- uuid -->
+<script>
+    var queryString = "<?php echo $configFile ?>"; // location.search.substring(1);
+    var localFile = queryString;
+
+    var obj, dbParam, xmlhttp, myObj, x, txt0 = "";
+    dbParam = JSON.stringify(obj);
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+
+        if (this.readyState == 4 && this.status == 200) {
+            myObj = JSON.parse(this.responseText);
+            txt0 += "<div style='border: 1px solid pink; background-color: rgba(100, 100, 100, 0.5); height: auto; width: 800px;'>";
+            for (x in myObj) {
+                txt0 += "<h2>Template ID: " + myObj[x].id + "</h2>";
+            }
+            txt0 += "</div>";
+            document.getElementById("UUIDoutput").innerHTML = txt0;
+        }
+    };
+    xmlhttp.open("GET", localFile, true);
+    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xmlhttp.send("x=" + dbParam);
+</script>
 </body>
 <?php
 }
