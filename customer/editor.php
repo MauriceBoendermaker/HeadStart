@@ -21,12 +21,12 @@ $jsonData = file_get_contents("../templates/vanilla526/vanilla526_config.json");
 
 $array1 = json_decode(json_encode((array)$jsonData), true);
 
-foreach ($characters as $key => $value1) {
-	echo $value1["theme"] . '<br>';
-}
 
 $characters = json_decode($jsonData, 1);
 
+//foreach ($characters as $key => $value1) {
+//	echo $value1["theme"] . '<br>';
+//}
 
 
 foreach ($templateDataAll as $templateData) {
