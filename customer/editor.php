@@ -25,6 +25,7 @@ foreach ($characters as $key => $value1) {
 	echo $value1["theme"] . '<br>';
 }
 
+$characters = json_decode($jsonData, 1);
 
 
 
