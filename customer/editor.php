@@ -31,6 +31,13 @@ $characters = json_decode($jsonData, 1);
 
 foreach ($templateDataAll as $templateData) {
 
+	// retrieve all data from database and put it in an array
+	// and then use the array to create the html
+	$array = array();
+
+	foreach ($templateData as $key => $value) {
+		$array[$key] = $value;
+	}
 ?>
 <body>
 </body>
