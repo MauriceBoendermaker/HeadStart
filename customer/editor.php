@@ -143,6 +143,21 @@ foreach ($templateDataAll as $templateData) {
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xmlhttp.send("x=" + dbParam);
 </script>
+
+<?php
+
+$template = intval($_GET['template']);
+
+$con = mysqli_connect("localhost","root","","headstart");
+if (!$con) {
+	die('Could not connect: ' . mysqli_error($con));
+}
+
+mysqli_select_db($con,"headstart");
+$sql="SELECT * FROM vanilla526 WHERE id = '".$template."'";
+$result = mysqli_query($con,$sql);
+
+while($row = mysqli_fetch_array($result)) {
 </body>
 <?php
 }
