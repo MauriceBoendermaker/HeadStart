@@ -63,6 +63,7 @@ foreach ($templateDataAll as $templateData) {
 ?>
 <body>
 <h1>Accordion Test</h1>
+<h4><?php echo $templateData->getTitle(); ?></h4>
 </body>
 <?php
 }
