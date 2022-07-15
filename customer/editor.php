@@ -62,6 +62,7 @@ foreach ($templateDataAll as $templateData) {
 
 ?>
 <body>
+<h1>Accordion Test</h1>
 </body>
 <?php
 }
