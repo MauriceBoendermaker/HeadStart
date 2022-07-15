@@ -19,6 +19,7 @@ $configFile = $templateName . "_config.json";
 
 $jsonData = file_get_contents("../templates/vanilla526/vanilla526_config.json");
 
+$array1 = json_decode(json_encode((array)$jsonData), true);
 
 foreach ($characters as $key => $value1) {
 	echo $value1["theme"] . '<br>';
