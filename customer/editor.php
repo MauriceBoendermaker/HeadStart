@@ -64,6 +64,10 @@ foreach ($templateDataAll as $templateData) {
 <body>
 <h1>Accordion Test</h1>
 <h4><?php echo $templateData->getTitle(); ?></h4>
+<p id="UUIDoutput"></p><!-- uuid -->
+<p id="LANGoutput"></p><!-- Language -->
+<p id="TITLEoutput"></p><!-- Title -->
+<div id="answers"></div>
 </body>
 <?php
 }
