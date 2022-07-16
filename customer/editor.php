@@ -24,11 +24,6 @@ $array1 = json_decode(json_encode((array)$jsonData), true);
 
 $characters = json_decode($jsonData, 1);
 
-//foreach ($characters as $key => $value1) {
-//	echo $value1["theme"] . '<br>';
-//}
-
-
 foreach ($templateDataAll as $templateData) {
 
 	// retrieve all data from database and put it in an array
