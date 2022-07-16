@@ -34,27 +34,6 @@ foreach ($templateDataAll as $templateData) {
 		$array[$key] = $value;
 	}
 
-//	$array["theme"] = $characters[$array["theme"]];
-
-	//var_dump($array);
-
-	// create the html
-//	$html = file_get_contents($templatePath . "/" . $templateName . ".html");
-
-	// replace the placeholders with the data
-//	$html = str_replace("{%{%}%}", $array["theme"], $html);
-
-	// output the html
-//	echo $html;
-
-
-
-
-//	$someCounted = count($array1);
-//	for($i = 0; $i < $someCounted; $i++){
-//		$teeest = $array1[$i];
-//	}
-
 ?>
 <body>
 <h1>Accordion Test</h1>
