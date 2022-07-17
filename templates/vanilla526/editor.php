@@ -9,4 +9,8 @@ include_once "database/database_vanilla526.php";
 $db = new database_vanilla526($db_host, $db_user, $db_pass, $db_name, $db_port);
 $templateDataAll = $db->getVanilla526();
 
+if (isset($_POST['cancel'])) {
+	home();
+}
+
 ?>
