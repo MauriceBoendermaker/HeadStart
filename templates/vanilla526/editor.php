@@ -24,4 +24,8 @@ function home()
 	exit();
 }
 
+foreach ($templateDataAll as $templateData) {
+?>
+<?php
+}
 ?>
