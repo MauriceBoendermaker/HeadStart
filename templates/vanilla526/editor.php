@@ -18,4 +18,10 @@ if (isset($_POST['save'])) {
 	home();
 }
 
+function home()
+{
+	header('Location: ');
+	exit();
+}
+
 ?>
