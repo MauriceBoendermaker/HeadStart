@@ -49,6 +49,11 @@ if (isset($_POST['save_elements'])) {
 	home();
 }
 
+if (isset($_POST['save_typo'])) {
+	$db->setVanilla526Typo();
+	home();
+}
+
 	home();
 }
 
