@@ -34,6 +34,11 @@ if (isset($_POST['save_header'])) {
 	home();
 }
 
+if (isset($_POST['save_footer'])) {
+	$db->setVanilla526Footer($_POST["CompanyName"]);
+	home();
+}
+
 	home();
 }
 
