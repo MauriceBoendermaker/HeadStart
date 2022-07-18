@@ -110,7 +110,6 @@ foreach ($templateDataAll as $templateData) {
 
 <?php
 
-$template = intval($_GET['template']);
 
 $con = mysqli_connect("localhost","root","","headstart");
 if (!$con) {
