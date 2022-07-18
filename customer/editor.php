@@ -111,10 +111,6 @@ foreach ($templateDataAll as $templateData) {
 <?php
 
 
-$con = mysqli_connect("localhost","root","","headstart");
-if (!$con) {
-	die('Could not connect: ' . mysqli_error($con));
-}
 
 mysqli_select_db($con,"headstart");
 $sql="SELECT * FROM vanilla526 WHERE id = '".$template."'";
