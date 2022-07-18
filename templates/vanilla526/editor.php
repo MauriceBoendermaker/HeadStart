@@ -24,6 +24,11 @@ if (isset($_POST['save_seo'])) {
 	home();
 }
 
+if (isset($_POST['save_nav'])) {
+	$db->setVanilla526Nav($_POST["NavItem1"], $_POST["NavItem2"], $_POST["NavItem3"], $_POST["NavItem4"], $_POST["NavItem5"]);
+	home();
+}
+
 	home();
 }
 
