@@ -29,6 +29,11 @@ if (isset($_POST['save_nav'])) {
 	home();
 }
 
+if (isset($_POST['save_header'])) {
+	$db->setVanilla526Header($_POST["Headline"], $_POST["StrongSubHeadline"], $_POST["SubHeadline"], $_POST["HeaderCtaBtn"]);
+	home();
+}
+
 	home();
 }
 
