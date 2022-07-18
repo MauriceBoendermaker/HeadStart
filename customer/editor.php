@@ -116,7 +116,6 @@ mysqli_select_db($con,"headstart");
 $sql="SELECT * FROM vanilla526 WHERE id = '".$template."'";
 $result = mysqli_query($con,$sql);
 
-while($row = mysqli_fetch_array($result)) {
 </body>
 <?php
 }
