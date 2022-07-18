@@ -19,6 +19,11 @@ if (isset($_POST['save_settings'])) {
 	home();
 }
 
+if (isset($_POST['save_seo'])) {
+	$db->setVanilla526Seo($_POST["id"], $_POST["seo_lang"], $_POST["seo_title"], $_POST["seo_author"], $_POST["seo_copy"], $_POST["seo_desc"], $_POST["seo_keywords"], $_POST["seo_url"], $_POST["seo_image"]);
+	home();
+}
+
 	home();
 }
 
