@@ -112,9 +112,6 @@ foreach ($templateDataAll as $templateData) {
 
 
 
-mysqli_select_db($con,"headstart");
-$sql="SELECT * FROM vanilla526 WHERE id = '".$template."'";
-$result = mysqli_query($con,$sql);
 
 </body>
 <?php
