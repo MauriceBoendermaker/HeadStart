@@ -13,7 +13,6 @@ if (isset($_POST['cancel'])) {
 	home();
 }
 
-if (isset($_POST['save'])) {
 if (isset($_POST['save_settings'])) {
 	$db->setVanilla526PaginaInstellingen($_POST["id"], $_POST['title']);
 	home();
@@ -58,6 +57,7 @@ if (isset($_POST['save_style'])) {
 	$db->setVanilla526Style();
 	home();
 }
+
 
 function home()
 {
