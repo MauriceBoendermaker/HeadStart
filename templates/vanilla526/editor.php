@@ -54,6 +54,8 @@ if (isset($_POST['save_typo'])) {
 	home();
 }
 
+if (isset($_POST['save_style'])) {
+	$db->setVanilla526Style();
 	home();
 }
 
