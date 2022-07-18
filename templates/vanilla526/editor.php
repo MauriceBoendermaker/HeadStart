@@ -44,6 +44,11 @@ if (isset($_POST['save_carousel'])) {
 	home();
 }
 
+if (isset($_POST['save_elements'])) {
+	$db->setVanilla526PaginaElementen($_POST["P2BoxTitle1"], $_POST["P2BoxText1"], $_POST["P2BoxTitle2"], $_POST["P2BoxText2"], $_POST["P2BoxTitle3"], $_POST["P2BoxText3"], $_POST["P2BoxTitle4"], $_POST["P2BoxText4"], $_POST["TabImg1"], $_POST["TabText1"], $_POST["TabImg2"], $_POST["TabText2"], $_POST["TabImg3"], $_POST["TabText3"], $_POST["TabImg4"], $_POST["TabText4"], $_POST["TabItem1"], $_POST["TabItem2"], $_POST["TabItem3"], $_POST["TabItem4"], $_POST["P2Header"], $_POST["P2HeaderText"], $_POST["P2HeaderListItem1"], $_POST["P2HeaderListItem2"], $_POST["P2HeaderListItem3"], $_POST["P2HeaderListItem4"], $_POST["P2HeaderCtaBtn"]);
+	home();
+}
+
 	home();
 }
 
