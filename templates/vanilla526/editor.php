@@ -250,6 +250,142 @@ foreach ($templateDataAll as $templateData) {
 								</div>
 							</form>
 						</div>
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading6">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+										Slider
+									</button>
+								</h2>
+								<div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<div class="mb-3">
+											<label for="CarouselImg1" class="form-label">Slide 1 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg1" name="CarouselImg1" aria-describedby="CarouselImg1Help" value="<?php echo $templateData->getCarouselImg1(); ?>" placeholder="<?php echo $templateData->getCarouselImg1(); ?>">
+											<div id="CarouselImg1Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText1" class="form-label">Slide 1 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText1" name="CarouselText1" aria-describedby="CarouselText1Help" value="<?php echo $templateData->getCarouselText1(); ?>" placeholder="<?php echo $templateData->getCarouselText1(); ?>">
+											<div id="CarouselText1Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub1" class="form-label">Slide 1 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub1" name="CarouselSub1" aria-describedby="CarouselSub1Help" value="<?php echo $templateData->getCarouselSub1(); ?>" placeholder="<?php echo $templateData->getCarouselSub1(); ?>">
+											<div id="CarouselSub1Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg2" class="form-label">Slide 2 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg2" name="CarouselImg2" aria-describedby="CarouselImg2Help" value="<?php echo $templateData->getCarouselImg2(); ?>" placeholder="<?php echo $templateData->getCarouselImg2(); ?>">
+											<div id="CarouselImg2Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText2" class="form-label">Slide 2 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText2" name="CarouselText2" aria-describedby="CarouselText2Help" value="<?php echo $templateData->getCarouselText2(); ?>" placeholder="<?php echo $templateData->getCarouselText2(); ?>">
+											<div id="CarouselText2Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub2" class="form-label">Slide 2 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub2" name="CarouselSub2" aria-describedby="CarouselSub2Help" value="<?php echo $templateData->getCarouselSub2(); ?>" placeholder="<?php echo $templateData->getCarouselSub2(); ?>">
+											<div id="CarouselSub2Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg3" class="form-label">Slide 3 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg3" name="CarouselImg3" aria-describedby="CarouselImg3Help" value="<?php echo $templateData->getCarouselImg3(); ?>" placeholder="<?php echo $templateData->getCarouselImg3(); ?>">
+											<div id="CarouselImg3Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText3" class="form-label">Slide 3 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText3" name="CarouselText3" aria-describedby="CarouselText3Help" value="<?php echo $templateData->getCarouselText3(); ?>" placeholder="<?php echo $templateData->getCarouselText3(); ?>">
+											<div id="CarouselText3Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub3" class="form-label">Slide 3 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub3" name="CarouselSub3" aria-describedby="CarouselSub3Help" value="<?php echo $templateData->getCarouselSub3(); ?>" placeholder="<?php echo $templateData->getCarouselSub3(); ?>">
+											<div id="CarouselSub3Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg4" class="form-label">Slide 4 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg4" name="CarouselImg4" aria-describedby="CarouselImg4Help" value="<?php echo $templateData->getCarouselImg4(); ?>" placeholder="<?php echo $templateData->getCarouselImg4(); ?>">
+											<div id="CarouselImg4Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText4" class="form-label">Slide 4 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText4" name="CarouselText4" aria-describedby="CarouselText4Help" value="<?php echo $templateData->getCarouselText4(); ?>" placeholder="<?php echo $templateData->getCarouselText4(); ?>">
+											<div id="CarouselText4Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub4" class="form-label">Slide 4 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub4" name="CarouselSub4" aria-describedby="CarouselSub4Help" value="<?php echo $templateData->getCarouselSub4(); ?>" placeholder="<?php echo $templateData->getCarouselSub4(); ?>">
+											<div id="CarouselSub4Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg5" class="form-label">Slide 5 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg5" name="CarouselImg5" aria-describedby="CarouselImg5Help" value="<?php echo $templateData->getCarouselImg4(); ?>" placeholder="<?php echo $templateData->getCarouselImg4(); ?>">
+											<div id="CarouselImg5Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText5" class="form-label">Slide 5 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText5" name="CarouselText5" aria-describedby="CarouselText5Help" value="<?php echo $templateData->getCarouselText5(); ?>" placeholder="<?php echo $templateData->getCarouselText5(); ?>">
+											<div id="CarouselText5Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub5" class="form-label">Slide 5 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub5" name="CarouselSub5" aria-describedby="CarouselSub5Help" value="<?php echo $templateData->getCarouselSub5(); ?>" placeholder="<?php echo $templateData->getCarouselSub5(); ?>">
+											<div id="CarouselSub5Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg6" class="form-label">Slide 6 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg6" name="CarouselImg6" aria-describedby="CarouselImg6Help" value="<?php echo $templateData->getCarouselImg6(); ?>" placeholder="<?php echo $templateData->getCarouselImg6(); ?>">
+											<div id="CarouselImg6Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText6" class="form-label">Slide 6 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText6" name="CarouselText6" aria-describedby="CarouselText6Help" value="<?php echo $templateData->getCarouselText6(); ?>" placeholder="<?php echo $templateData->getCarouselText6(); ?>">
+											<div id="CarouselText6Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub6" class="form-label">Slide 6 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub6" name="CarouselSub6" aria-describedby="CarouselSub6Help" value="<?php echo $templateData->getCarouselSub6(); ?>" placeholder="<?php echo $templateData->getCarouselSub6(); ?>">
+											<div id="CarouselSub6Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg7" class="form-label">Slide 7 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg7" name="CarouselImg7" aria-describedby="CarouselImg7Help" value="<?php echo $templateData->getCarouselImg7(); ?>" placeholder="<?php echo $templateData->getCarouselImg7(); ?>">
+											<div id="CarouselImg7Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText7" class="form-label">Slide 7 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText7" name="CarouselText7" aria-describedby="CarouselText7Help" value="<?php echo $templateData->getCarouselText7(); ?>" placeholder="<?php echo $templateData->getCarouselText7(); ?>">
+											<div id="CarouselText7Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub7" class="form-label">Slide 7 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub7" name="CarouselSub7" aria-describedby="CarouselSub7Help" value="<?php echo $templateData->getCarouselSub7(); ?>" placeholder="<?php echo $templateData->getCarouselSub7(); ?>">
+											<div id="CarouselSub7Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselImg8" class="form-label">Slide 8 (afbeelding)</label>
+											<input type="text" class="form-control" id="CarouselImg8" name="CarouselImg8" aria-describedby="CarouselImg8Help" value="<?php echo $templateData->getCarouselImg8(); ?>" placeholder="<?php echo $templateData->getCarouselImg8(); ?>">
+											<div id="CarouselImg8Help" class="form-text">Afbeelding</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselText8" class="form-label">Slide 8 (Tekst)</label>
+											<input type="text" class="form-control" id="CarouselText8" name="CarouselText8" aria-describedby="CarouselText8Help" value="<?php echo $templateData->getCarouselText8(); ?>" placeholder="<?php echo $templateData->getCarouselText8(); ?>">
+											<div id="CarouselText8Help" class="form-text">Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="CarouselSub8" class="form-label">Slide 8 (Subtekst)</label>
+											<input type="text" class="form-control" id="CarouselSub8" name="CarouselSub8" aria-describedby="CarouselSub8Help" value="<?php echo $templateData->getCarouselSub8(); ?>" placeholder="<?php echo $templateData->getCarouselSub8(); ?>">
+											<div id="CarouselSub8Help" class="form-text">Tekst</div>
+										</div>
+										<button type="submit" name="save_carousel" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
