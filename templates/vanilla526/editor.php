@@ -67,6 +67,15 @@ function home()
 
 foreach ($templateDataAll as $templateData) {
 ?>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="accordion accordion-flush" id="accordionFlushExample">
+					</div>
+				</div>
+				<div class="col-md-8">col-sm-4</div>
+			</div>
+		</div>
 <?php
 }
 ?>
