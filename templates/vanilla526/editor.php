@@ -71,6 +71,27 @@ foreach ($templateDataAll as $templateData) {
 			<div class="row">
 				<div class="col-md-4">
 					<div class="accordion accordion-flush" id="accordionFlushExample">
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading1">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+										Pagina instellingen
+									</button>
+								</h2>
+								<div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<div class="mb-3">
+											<label for="PaginaTitel" class="form-label">Pagina titel</label>
+											<input type="text" class="form-control" id="PaginaTitel" name="title" aria-describedby="PaginaTitelHelp" value="<?php echo $templateData->getTitle(); ?>" placeholder="<?php echo $templateData->getTitle(); ?>">
+											<div id="PaginaTitelHelp" class="form-text">Pagina titel</div>
+										</div>
+										<button type="submit" name="save_settings" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
