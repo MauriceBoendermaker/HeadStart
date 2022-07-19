@@ -152,6 +152,47 @@ foreach ($templateDataAll as $templateData) {
 								</div>
 							</form>
 						</div>
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading3">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+										Navigatie
+									</button>
+								</h2>
+								<div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<div class="mb-3">
+											<label for="NavItem1" class="form-label">Pagina 1</label>
+											<input type="text" class="form-control" id="NavItem1" name="NavItem1" aria-describedby="NavItem1Help" value="<?php echo $templateData->getNavItem1(); ?>" placeholder="<?php echo $templateData->getNavItem1(); ?>">
+											<div id="NavItem1Help" class="form-text">Pagina titel 1</div>
+										</div>
+										<div class="mb-3">
+											<label for="NavItem2" class="form-label">Pagina 2</label>
+											<input type="text" class="form-control" id="NavItem2" name="NavItem2" aria-describedby="NavItem2Help" value="<?php echo $templateData->getNavItem2(); ?>" placeholder="<?php echo $templateData->getNavItem2(); ?>">
+											<div id="NavItem2Help" class="form-text">Pagina titel 2</div>
+										</div>
+										<div class="mb-3">
+											<label for="NavItem3" class="form-label">Pagina 3</label>
+											<input type="text" class="form-control" id="NavItem3" name="NavItem3" aria-describedby="NavItem3Help" value="<?php echo $templateData->getNavItem3(); ?>" placeholder="<?php echo $templateData->getNavItem3(); ?>">
+											<div id="NavItem3Help" class="form-text">Pagina titel 3</div>
+										</div>
+										<div class="mb-3">
+											<label for="NavItem4" class="form-label">Pagina 4</label>
+											<input type="text" class="form-control" id="NavItem4" name="NavItem4" aria-describedby="NavItem4Help" value="<?php echo $templateData->getNavItem4(); ?>" placeholder="<?php echo $templateData->getNavItem4(); ?>">
+											<div id="NavItem4Help" class="form-text">Pagina titel 4</div>
+										</div>
+										<div class="mb-3">
+											<label for="NavItem5" class="form-label">Pagina 5</label>
+											<input type="text" class="form-control" id="NavItem5" name="NavItem5" aria-describedby="NavItem5Help" value="<?php echo $templateData->getNavItem5(); ?>" placeholder="<?php echo $templateData->getNavItem5(); ?>">
+											<div id="NavItem5Help" class="form-text">Pagina titel 5</div>
+										</div>
+										<button type="submit" name="save_nav" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
