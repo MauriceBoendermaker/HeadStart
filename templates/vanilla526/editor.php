@@ -92,6 +92,66 @@ foreach ($templateDataAll as $templateData) {
 								</div>
 							</form>
 						</div>
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading2">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+										SEO
+									</button>
+								</h2>
+								<div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<div class="mb-3">
+											<label for="SeoTaal" class="form-label">Taal</label>
+											<select class="form-select" aria-label="Default select example" disabled>
+												<option value="<?php $templateData->getSeoLang(); ?>" selected><?php if ($templateData->getSeoLang() === "en") { echo "English"; } ?></option>
+												<option value="nl">Nederlands</option>
+											</select>
+											<input type="hidden" name="seo_lang" value="<?php echo $templateData->getSeoLang(); ?>">
+											<div id="SeoTaalHelp" class="form-text">*Ondersteuning voor meer talen worden op een later moment toegevoegd.</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoTitel" class="form-label">Titel</label>
+											<input type="text" class="form-control" id="SeoTitel" name="seo_title" aria-describedby="SeoTitelHelp" value="<?php echo $templateData->getSeoTitle(); ?>" placeholder="<?php echo $templateData->getSeoTitle(); ?>">
+											<div id="SeoTitelHelp" class="form-text">SEO titel</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoAuteur" class="form-label">Auteur</label>
+											<input type="text" class="form-control" id="SeoAuteur" name="seo_author" aria-describedby="SeoAuteurHelp" value="<?php echo $templateData->getSeoAuthor(); ?>" placeholder="<?php echo $templateData->getSeoAuthor(); ?>">
+											<div id="SeoAuteurHelp" class="form-text">Auteur van de website</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoCopy" class="form-label">Copyright</label>
+											<input type="text" class="form-control" id="SeoCopy" name="seo_copy" aria-describedby="SeoCopyHelp" value="<?php echo $templateData->getSeoCopy(); ?>" placeholder="<?php echo $templateData->getSeoCopy(); ?>">
+											<div id="SeoCopyHelp" class="form-text">SEO copyright</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoDesc" class="form-label">Beschrijving</label>
+											<input type="text" class="form-control" id="SeoDesc" name="seo_desc" aria-describedby="SeoDescHelp" value="<?php echo $templateData->getSeoDesc(); ?>" placeholder="<?php echo $templateData->getSeoDesc(); ?>">
+											<div id="SeoDescHelp" class="form-text">SEO website beschrijving</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoKeywords" class="form-label">Keywords</label>
+											<input type="text" class="form-control" id="SeoKeywords" name="seo_keywords" aria-describedby="SeoKeywordsHelp" value="<?php echo $templateData->getSeoKeywords(); ?>" placeholder="<?php echo $templateData->getSeoKeywords(); ?>">
+											<div id="SeoKeywordsHelp" class="form-text">*Scheid woorden met komma's</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoUrl" class="form-label">URL</label>
+											<input type="text" class="form-control" id="SeoUrl" name="seo_url" aria-describedby="SeoUrlHelp" value="<?php echo $templateData->getSeoUrl(); ?>" placeholder="<?php echo $templateData->getSeoUrl(); ?>">
+											<div id="SeoUrlHelp" class="form-text">Website URL</div>
+										</div>
+										<div class="mb-3">
+											<label for="SeoImage" class="form-label">Afbeelding</label>
+											<input type="file" class="form-control" id="inputGroupFile02" name="seo_image">
+											<div id="SeoUrlHelp" class="form-text">SEO afbeelding</div>
+										</div>
+										<button type="submit" name="save_seo" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
