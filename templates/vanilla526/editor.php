@@ -386,6 +386,97 @@ foreach ($templateDataAll as $templateData) {
 								</div>
 							</form>
 						</div>
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading7">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+										Pagina elementen
+									</button>
+								</h2>
+								<div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<div class="mb-3">
+											<label for="P2Header" class="form-label">Pagina 2 Koptekst</label>
+											<input type="text" class="form-control" id="P2Header" name="P2Header" aria-describedby="P2HeaderHelp" value="<?php echo $templateData->getP2Header(); ?>" placeholder="<?php echo $templateData->getP2Header(); ?>">
+											<div id="P2HeaderHelp" class="form-text">Koptekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2HeaderText" class="form-label">Pagina 2 Subtekst</label>
+											<input type="text" class="form-control" id="P2HeaderText" name="P2HeaderText" aria-describedby="P2HeaderTextHelp" value="<?php echo $templateData->getP2HeaderText(); ?>" placeholder="<?php echo $templateData->getP2HeaderText(); ?>">
+											<div id="P2HeaderTextHelp" class="form-text">Subtekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2HeaderListItem1" class="form-label">Punt 1</label>
+											<input type="text" class="form-control" id="P2HeaderListItem1" name="P2HeaderListItem1" aria-describedby="P2HeaderListItem1Help" value="<?php echo $templateData->getP2HeaderListItem1(); ?>" placeholder="<?php echo $templateData->getP2HeaderListItem1(); ?>">
+											<div id="P2HeaderListItem1Help" class="form-text">Lijstitem 1</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2HeaderListItem2" class="form-label">Punt 2</label>
+											<input type="text" class="form-control" id="P2HeaderListItem2" name="P2HeaderListItem2" aria-describedby="P2HeaderListItem2Help" value="<?php echo $templateData->getP2HeaderListItem2(); ?>" placeholder="<?php echo $templateData->getP2HeaderListItem2(); ?>">
+											<div id="P2HeaderListItem2Help" class="form-text">Lijstitem 2</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2HeaderListItem3" class="form-label">Punt 3</label>
+											<input type="text" class="form-control" id="P2HeaderListItem3" name="P2HeaderListItem3" aria-describedby="P2HeaderListItem3Help" value="<?php echo $templateData->getP2HeaderListItem3(); ?>" placeholder="<?php echo $templateData->getP2HeaderListItem3(); ?>">
+											<div id="P2HeaderListItem3Help" class="form-text">Lijstitem 3</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2HeaderListItem4" class="form-label">Punt 4</label>
+											<input type="text" class="form-control" id="P2HeaderListItem4" name="P2HeaderListItem4" aria-describedby="P2HeaderListItem4Help" value="<?php echo $templateData->getP2HeaderListItem4(); ?>" placeholder="<?php echo $templateData->getP2HeaderListItem4(); ?>">
+											<div id="P2HeaderListItem4Help" class="form-text">Lijstitem 4</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2HeaderCtaBtn" class="form-label">Call-to-action knop</label>
+											<input type="text" class="form-control" id="P2HeaderCtaBtn" name="P2HeaderCtaBtn" aria-describedby="P2HeaderCtaBtnHelp" value="<?php echo $templateData->getP2HeaderCtaBtn(); ?>" placeholder="<?php echo $templateData->getP2HeaderCtaBtn(); ?>">
+											<div id="P2HeaderCtaBtnHelp" class="form-text">Call-to-action knop</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxTitle1" class="form-label">Box 1 - Titel</label>
+											<input type="text" class="form-control" id="P2BoxTitle1" name="P2BoxTitle1" aria-describedby="P2BoxTitle1Help" value="<?php echo $templateData->getP2BoxTitle1(); ?>" placeholder="<?php echo $templateData->getP2BoxTitle1(); ?>">
+											<div id="P2BoxTitle1Help" class="form-text">Box 1 - Titel</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxText1" class="form-label">Box 1 - Tekst</label>
+											<input type="text" class="form-control" id="P2BoxText1" name="P2BoxText1" aria-describedby="P2BoxText1Help" value="<?php echo $templateData->getP2BoxText1(); ?>" placeholder="<?php echo $templateData->getP2BoxText1(); ?>">
+											<div id="P2BoxText1Help" class="form-text">Box 1 - Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxTitle2" class="form-label">Box 2 - Titel</label>
+											<input type="text" class="form-control" id="P2BoxTitle2" name="P2BoxTitle2" aria-describedby="P2BoxTitle2Help" value="<?php echo $templateData->getP2BoxTitle2(); ?>" placeholder="<?php echo $templateData->getP2BoxTitle2(); ?>">
+											<div id="P2BoxTitle2Help" class="form-text">Box 2 - Titel</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxText2" class="form-label">Box 2 - Tekst</label>
+											<input type="text" class="form-control" id="P2BoxText2" name="P2BoxText2" aria-describedby="P2BoxText2Help" value="<?php echo $templateData->getP2BoxText2(); ?>" placeholder="<?php echo $templateData->getP2BoxText2(); ?>">
+											<div id="P2BoxText2Help" class="form-text">Box 2 - Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxTitle3" class="form-label">Box 3 - Titel</label>
+											<input type="text" class="form-control" id="P2BoxTitle3" name="P2BoxTitle3" aria-describedby="P2BoxTitle3Help" value="<?php echo $templateData->getP2BoxTitle3(); ?>" placeholder="<?php echo $templateData->getP2BoxTitle3(); ?>">
+											<div id="P2BoxTitle3Help" class="form-text">Box 3 - Titel</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxText3" class="form-label">Box 3 - Tekst</label>
+											<input type="text" class="form-control" id="P2BoxText3" name="P2BoxText3" aria-describedby="P2BoxText3Help" value="<?php echo $templateData->getP2BoxText3(); ?>" placeholder="<?php echo $templateData->getP2BoxText3(); ?>">
+											<div id="P2BoxText3Help" class="form-text">Box 3 - Tekst</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxTitle4" class="form-label">Box 4 - Titel</label>
+											<input type="text" class="form-control" id="P2BoxTitle4" name="P2BoxTitle4" aria-describedby="P2BoxTitle4Help" value="<?php echo $templateData->getP2BoxTitle4(); ?>" placeholder="<?php echo $templateData->getP2BoxTitle4(); ?>">
+											<div id="P2BoxTitle4Help" class="form-text">Box 4 - Titel</div>
+										</div>
+										<div class="mb-3">
+											<label for="P2BoxText4" class="form-label">Box 4 - Tekst</label>
+											<input type="text" class="form-control" id="P2BoxText4" name="P2BoxText4" aria-describedby="P2BoxText4Help" value="<?php echo $templateData->getP2BoxText4(); ?>" placeholder="<?php echo $templateData->getP2BoxText4(); ?>">
+											<div id="P2BoxText4Help" class="form-text">Box 4 - Tekst</div>
+										</div>
+										<button type="submit" name="save_elements" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
