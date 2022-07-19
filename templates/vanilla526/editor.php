@@ -494,6 +494,23 @@ foreach ($templateDataAll as $templateData) {
 								</div>
 							</form>
 						</div>
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading9">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+										Huisstijl
+									</button>
+								</h2>
+								<div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+
+										<button type="submit" name="save_style" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
