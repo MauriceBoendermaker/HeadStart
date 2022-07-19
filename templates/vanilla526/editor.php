@@ -193,6 +193,42 @@ foreach ($templateDataAll as $templateData) {
 								</div>
 							</form>
 						</div>
+						<div class="accordion-item">
+							<form action="" method="post">
+								<input type="hidden" name="id" value="<?php echo $templateData->getID(); ?>">
+								<h2 class="accordion-header" id="flush-heading4">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+										Header
+									</button>
+								</h2>
+								<div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+									<div class="accordion-body">
+										<div class="mb-3">
+											<label for="Headline" class="form-label">Koptekst</label>
+											<input type="text" class="form-control" id="Headline" name="Headline" aria-describedby="HeadlineHelp" value="<?php echo $templateData->getHeadline(); ?>" placeholder="<?php echo $templateData->getHeadline(); ?>">
+											<div id="HeadlineHelp" class="form-text">Koptekst voor de eerste pagina</div>
+										</div>
+										<div class="mb-3">
+											<label for="StrongSubHeadline" class="form-label">Vetgedrukte subtekst</label>
+											<input type="text" class="form-control" id="StrongSubHeadline" name="StrongSubHeadline" aria-describedby="StrongSubHeadlineHelp" value="<?php echo $templateData->getStrongSubHeadline(); ?>" placeholder="<?php echo $templateData->getStrongSubHeadline(); ?>">
+											<div id="StrongSubHeadlineHelp" class="form-text">Vetgedrukte subtekst voor de eerste pagina</div>
+										</div>
+										<div class="mb-3">
+											<label for="Headline" class="form-label">Koptekst</label>
+											<input type="text" class="form-control" id="Headline" name="Headline" aria-describedby="HeadlineHelp" value="<?php echo $templateData->getHeadline(); ?>" placeholder="<?php echo $templateData->getHeadline(); ?>">
+											<div id="HeadlineHelp" class="form-text">Koptekst voor de eerste pagina</div>
+										</div>
+										<div class="mb-3">
+											<label for="HeaderCtaBtn" class="form-label">Call-to-action knop</label>
+											<input type="text" class="form-control" id="HeaderCtaBtn" name="HeaderCtaBtn" aria-describedby="HeaderCtaBtnHelp" value="<?php echo $templateData->getHeaderCtaBtn(); ?>" placeholder="<?php echo $templateData->getHeaderCtaBtn(); ?>">
+											<div id="HeaderCtaBtnHelp" class="form-text">Call-to-action knop</div>
+										</div>
+										<button type="submit" name="save_header" class="btn btn-success">Bewaren</button>
+										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
+									</div>
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-8">col-sm-4</div>
