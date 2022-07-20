@@ -161,6 +161,16 @@ class database_vanilla526 {
 		}
 	}
 
+	public function setVanilla526Seo($id, $seo_lang, $seo_title, $seo_author, $seo_copy, $seo_desc, $seo_keywords, $seo_url, $seo_image)
+	{
+		$this->connect();
+		if (is_null($id)) {
+			$result = $this->db->query("INSERT INTO vanilla526 (seo_lang, seo_title, seo_author, seo_copy, seo_desc, seo_keywords, seo_url, seo_image) VALUES ('$seo_lang', '$seo_title', '$seo_author', '$seo_copy', '$seo_desc', '$seo_keywords', '$seo_url', '$seo_image')");
+		} else {
+			$result = $this->db->query("UPDATE vanilla526 SET seo_lang = '$seo_lang', seo_title = '$seo_title', seo_author = '$seo_author', seo_copy = '$seo_copy', seo_desc = '$seo_desc', seo_keywords = '$seo_keywords', seo_url = '$seo_url', seo_image = '$seo_image' WHERE id = '$id'");
+		}
+	}
+
 		}
 	}
 
