@@ -171,6 +171,16 @@ class database_vanilla526 {
 		}
 	}
 
+	public function setVanilla526Nav($id, $nav_item1, $nav_item2, $nav_item3, $nav_item4, $nav_item5)
+	{
+		$this->connect();
+		if (is_null($id)) {
+			$result = $this->db->query("INSERT INTO vanilla526 (NavItem1, NavItem2, NavItem3, NavItem4, NavItem5) VALUES ('$nav_item1', '$nav_item2', '$nav_item3', '$nav_item4', '$nav_item5')");
+		} else {
+			$result = $this->db->query("UPDATE vanilla526 SET NavItem1 = '$nav_item1', NavItem2 = '$nav_item2', NavItem3 = '$nav_item3', NavItem4 = '$nav_item4', NavItem5 = '$nav_item5' WHERE id = '$id'");
+		}
+	}
+
 		}
 	}
 
