@@ -181,6 +181,13 @@ class database_vanilla526 {
 		}
 	}
 
+	public function setVanilla526Header($id, $headline, $strong_sub_headline, $sub_headline, $header_cta_btn)
+	{
+		$this->connect();
+		if (is_null($id)) {
+			$result = $this->db->query("INSERT INTO vanilla526 (Headline, StrongSubHeadline, SubHeadline) VALUES ('$headline', '$strong_sub_headline', '$sub_headline', '$header_cta_btn')");
+		} else {
+			$result = $this->db->query("UPDATE vanilla526 SET Headline = '$headline', StrongSubHeadline = '$strong_sub_headline', SubHeadline = '$sub_headline', HeaderCtaBtn = '$header_cta_btn' WHERE id = '$id'");
 		}
 	}
 
