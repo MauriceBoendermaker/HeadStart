@@ -1,0 +1,136 @@
+[
+  {
+    "id": "526",
+    "theme": "Vanilla 526",
+    "chapter": [
+      {
+        "id": 0,
+        "name": "Pagina instellingen",
+        "elements":
+        {
+          "title": "Pagina titel"
+        }
+      },
+      {
+        "id": 1,
+        "name": "SEO",
+        "elements":
+        {
+          "seo_lang": "Taal",
+          "seo_title": "Titel",
+          "seo_author": "Auteur",
+          "seo_copy": "Copyright",
+          "seo_description": "Beschrijving",
+          "seo_keywords": "Keywords",
+          "seo_url": "URL",
+          "seo_image": "Afbeelding"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Navigatie",
+        "elements":
+        {
+          "NavItem1": "Pagina 1",
+          "NavItem2": "Pagina 2",
+          "NavItem3": "Pagina 3",
+          "NavItem4": "Pagina 4",
+          "NavItem5": "Pagina 5"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Header",
+        "elements":
+        {
+          "Headline": "Koptekst",
+          "SubHeadline": "Subtekst",
+          "HeaderCtaBtn": "Call-to-action knop"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Footer",
+        "elements":
+        {
+          "CompanyName": "Naam"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Pagina elementen",
+        "elements":
+        {
+          "P2Header": "Pagina 2 koptekst",
+          "P2HeaderText": "Subtekst",
+          "P2HeaderListItem1": "Punt 1",
+          "P2HeaderListItem2": "Punt 2",
+          "P2HeaderListItem3": "Punt 3",
+          "P2HeaderListItem4": "Punt 4",
+          "P2HeaderCtaBtn": "Call-to-action knop",
+          "P2BoxTitle1": "Box 1 - Titel",
+          "P2BoxText1": "Box 1 - Tekst",
+          "P2BoxTitle2": "Box 2 - Titel",
+          "P2BoxText2": "Box 2 - Tekst",
+          "P2BoxTitle3": "Box 3 - Titel",
+          "P2BoxText3": "Box 3 - Tekst",
+          "P2BoxTitle4": "Box 4 - Titel",
+          "P2BoxText4": "Box 4 - Tekst",
+          "TabImg1": "Tab 1 - Afbeelding",
+          "TabText1": "Tab 1 - Tekst",
+          "TabImg2": "Tab 2 - Afbeelding",
+          "TabText2": "Tab 2 - Tekst",
+          "TabImg3": "Tab 3 - Afbeelding",
+          "TabText3": "Tab 3 - Tekst",
+          "TabImg4": "Tab 4 - Afbeelding",
+          "TabText4": "Tab 4 - Tekst",
+          "TabItem1": "Tab 1 - Knop tekst",
+          "TabItem2": "Tab 2 - Knop tekst",
+          "TabItem3": "Tab 3 - Knop tekst",
+          "TabItem4": "Tab 4 - Knop tekst"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Slider",
+        "elements":
+        {
+          "CarouselImg1": "Slide 1 (Afbeelding)",
+          "CarouselText1": "Slide 1 (Tekst)",
+          "CarouselSub1": "Slide 1 (Subtekst)",
+          "CarouselImg2": "Slide 2 (Afbeelding)",
+          "CarouselText2": "Slide 2 (Tekst)",
+          "CarouselSub2": "Slide 2 (Subtekst)",
+          "CarouselImg3": "Slide 3 (Afbeelding)",
+          "CarouselText3": "Slide 3 (Tekst)",
+          "CarouselSub3": "Slide 3 (Subtekst)",
+          "CarouselImg4": "Slide 4 (Afbeelding)",
+          "CarouselText4": "Slide 4 (Tekst)",
+          "CarouselSub4": "Slide 4 (Subtekst)",
+          "CarouselImg5": "Slide 5 (Afbeelding)",
+          "CarouselText5": "Slide 5 (Tekst)",
+          "CarouselSub5": "Slide 5 (Subtekst)",
+          "CarouselImg6": "Slide 6 (Afbeelding)",
+          "CarouselText6": "Slide 6 (Tekst)",
+          "CarouselSub6": "Slide 6 (Subtekst)",
+          "CarouselImg7": "Slide 7 (Afbeelding)",
+          "CarouselText7": "Slide 7 (Tekst)",
+          "CarouselSub7": "Slide 7 (Subtekst)",
+          "CarouselImg8": "Slide 8 (Afbeelding)",
+          "CarouselText8": "Slide 8 (Tekst)",
+          "CarouselSub8": "Slide 8 (Subtekst)"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Typografie",
+        "elements": ""
+      },
+      {
+        "id": 8,
+        "name": "Huisstijl",
+        "elements": ""
+      }
+    ]
+  }
+]
