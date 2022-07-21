@@ -53,7 +53,7 @@ foreach ($templateData as $data) {
     <div class="parallax-content baner-content" id="home">
         <div class="container">
             <div class="first-content">
-                <h1><?php echo $data->getHeadline(); ?></h1>
+                <h1 id="headline"><?php echo $data->getHeadline(); ?></h1>
                 <span><em><?php echo $data->getStrongSubHeadline(); ?></em> <?php echo $data->getSubHeadline(); ?></span>
                 <div class="primary-button">
                     <a href="#services"><?php echo $data->getHeaderCtaBtn(); ?></a>
