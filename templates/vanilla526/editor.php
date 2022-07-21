@@ -213,9 +213,9 @@ foreach ($templateDataAll as $templateData) {
 											<div id="StrongSubHeadlineHelp" class="form-text">Vetgedrukte subtekst voor de eerste pagina</div>
 										</div>
 										<div class="mb-3">
-											<label for="Headline" class="form-label">Koptekst</label>
-											<input type="text" class="form-control" id="Headline" name="Headline" aria-describedby="HeadlineHelp" value="<?php echo $templateData->getHeadline(); ?>" placeholder="<?php echo $templateData->getHeadline(); ?>">
-											<div id="HeadlineHelp" class="form-text">Koptekst voor de eerste pagina</div>
+											<label for="SubHeadline" class="form-label">Subtekst</label>
+											<input type="text" class="form-control" id="SubHeadline" name="SubHeadline" aria-describedby="SubHeadlineHelp" value="<?php echo $templateData->getSubHeadline(); ?>" placeholder="<?php echo $templateData->getSubHeadline(); ?>">
+											<div id="SubHeadlineHelp" class="form-text">Subtekst voor de eerste pagina</div>
 										</div>
 										<div class="mb-3">
 											<label for="HeaderCtaBtn" class="form-label">Call-to-action knop</label>
