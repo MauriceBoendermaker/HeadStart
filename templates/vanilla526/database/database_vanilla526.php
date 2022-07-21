@@ -230,6 +230,15 @@ class database_vanilla526 {
 		}
 	}
 
+	public function setVanilla526Style($id) {
+		$this->connect();
+		if (is_null($id)) {
+			$result = $this->db->query("INSERT INTO vanilla526 () VALUES ('')");
+		} else {
+			$result = $this->db->query("UPDATE vanilla526 SET WHERE id = '$id'");
+		}
+	}
+
 	public function applyVanilla526($vanilla526, $new = false)
 	{
 		$this->setVanilla526($new ? null : $vanilla526->getID(), $vanilla526->getTitle(), $vanilla526->getSeoLang(), $vanilla526->getSeoTitle(), $vanilla526->getSeoAuthor(), $vanilla526->getSeoCopy(), $vanilla526->getSeoDesc(), $vanilla526->getSeoKeywords(), $vanilla526->getSeoUrl(), $vanilla526->getSeoImage(), $vanilla526->getNavItem1(), $vanilla526->getNavItem2(), $vanilla526->getNavItem3(), $vanilla526->getNavItem4(), $vanilla526->getNavItem5(), $vanilla526->getHeadline(), $vanilla526->getStrongSubHeadline(), $vanilla526->getSubHeadline(), $vanilla526->getHeaderCtaBtn(), $vanilla526->getP2Header(), $vanilla526->getP2HeaderText(), $vanilla526->getP2HeaderListItem1(), $vanilla526->getP2HeaderListItem2(), $vanilla526->getP2HeaderListItem3(), $vanilla526->getP2HeaderListItem4(), $vanilla526->getP2HeaderCtaBtn(), $vanilla526->getP2BoxTitle1(), $vanilla526->getP2BoxText1(), $vanilla526->getP2BoxTitle2(), $vanilla526->getP2BoxText2(), $vanilla526->getP2BoxTitle3(), $vanilla526->getP2BoxText3(), $vanilla526->getP2BoxTitle4(), $vanilla526->getP2BoxText4(), $vanilla526->getCarouselImg1(), $vanilla526->getCarouselText1(), $vanilla526->getCarouselSub1(), $vanilla526->getCarouselImg2(), $vanilla526->getCarouselText2(), $vanilla526->getCarouselSub2(), $vanilla526->getCarouselImg3(), $vanilla526->getCarouselText3(), $vanilla526->getCarouselSub3(), $vanilla526->getCarouselImg4(), $vanilla526->getCarouselText4(), $vanilla526->getCarouselSub4(), $vanilla526->getCarouselImg5(), $vanilla526->getCarouselText5(), $vanilla526->getCarouselSub5(), $vanilla526->getCarouselImg6(), $vanilla526->getCarouselText6(), $vanilla526->getCarouselSub6(), $vanilla526->getCarouselImg7(), $vanilla526->getCarouselText7(), $vanilla526->getCarouselSub7(), $vanilla526->getCarouselImg8(), $vanilla526->getCarouselText8(), $vanilla526->getCarouselSub8(), $vanilla526->getTabImg1(), $vanilla526->getTabText1(), $vanilla526->getTabImg2(), $vanilla526->getTabText(), $vanilla526->getTabImg3(), $vanilla526->getTabText3(), $vanilla526->getTabImg4(), $vanilla526->getTabText4(), $vanilla526->getTabItem1(), $vanilla526->getTabItem2(), $vanilla526->getTabItem3(), $vanilla526->getTabItem4(), $vanilla526->getCompanyName());
