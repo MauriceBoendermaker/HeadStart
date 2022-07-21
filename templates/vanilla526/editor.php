@@ -512,7 +512,27 @@ foreach ($templateDataAll as $templateData) {
 						</div>
 					</div>
 				</div>
-				<div class="col-md-8">col-sm-4</div>
+				<div class="col-md-8">
+					<div style="width: auto; height: 1000px;">
+						<iframe src="index.php" id="frame1" style="width: 100%; height: 100%; border: none;" referrerpolicy="same-origin"></iframe>
+
+						<button onmouseenter="myFunction()" onmouseleave="myFunction1()">Try it</button>
+
+						<script>
+                            function myFunction() {
+                                var iframe = document.getElementById("frame1");
+                                var elmnt = iframe.contentWindow.document.getElementById("headline");
+                                elmnt.style.visibility = "hidden";
+                            }
+                            function myFunction1() {
+                                var iframe = document.getElementById("frame1");
+                                var elmnt = iframe.contentWindow.document.getElementById("headline");
+                                elmnt.style.visibility = "visible";
+                            }
+						</script>
+
+					</div>
+				</div>
 			</div>
 		</div>
 <?php
