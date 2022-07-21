@@ -531,6 +531,27 @@ foreach ($templateDataAll as $templateData) {
                             }
 						</script>
 
+						<script>
+
+                            // const iframe = document.getElementById("frame1");
+                            // const elmnt = iframe.contentWindow.document.getElementsByTagName("H1")[0];
+                            // elmnt.style.display = "none";
+
+                            // const x = document.getElementById("frame1");
+                            // let y = (x.contentWindow || x.contentDocument);
+                            // if (y.document)y = y.document;
+                            // y.body.style.backgroundColor = "red";
+
+                            // frames['frame1'].document.getElementById("html").contentDocument.body.style.color = "red";
+
+                            // const cssLink = document.createElement("link");
+                            // cssLink.href  = "style.css";
+                            // cssLink.rel   = "stylesheet";
+                            // cssLink.type  = "text/css";
+                            // frames['frame1'].contentWindow.document.body.appendChild(cssLink);
+                            //     ^frame1 is the #id of the iframe: <iframe id="frame1">
+
+						</script>
 					</div>
 				</div>
 			</div>
