@@ -58,7 +58,6 @@ if (isset($_POST['save_style'])) {
 	home();
 }
 
-
 function home()
 {
 	header('Location: editor.php');
