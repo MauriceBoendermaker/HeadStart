@@ -516,6 +516,23 @@ foreach ($templateDataAll as $templateData) {
 					<div style="width: auto; height: 1000px;">
 						<iframe src="index.php" id="frame1" style="width: 100%; height: 100%; border: none;" referrerpolicy="same-origin"></iframe>
 
+<!--						<script>-->
+<!--                            function myFunction() {-->
+<!--                                var iframe = document.getElementById("frame1");-->
+<!--                                var elmnt = iframe.contentWindow.document.getElementById("headline");-->
+<!--                                iframe.addEventListener("focus", function () {-->
+<!--                                    elmnt.style.position = "relative";-->
+<!--                                    elmnt.style.boxShadow = "0 0 0 1600px rgba(0,0,0,0.65)";-->
+<!--                                });-->
+<!--                            }-->
+<!--                            function myFunction1() {-->
+<!--                                var iframe = document.getElementById("frame1");-->
+<!--                                var elmnt = iframe.contentWindow.document.getElementById("headline");-->
+<!--                                iframe.addEventListener("focus", function () {-->
+<!--                                    elmnt.style.visibility = "visible";-->
+<!--                                });-->
+<!--                            }-->
+<!--						</script>-->
 
 						<script>
 
