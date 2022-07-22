@@ -515,6 +515,7 @@ foreach ($templateDataAll as $templateData) {
 				<div class="col-md-8">
 					<div style="width: auto; height: 1000px;">
 						<iframe src="index.php" id="frame1" style="width: 100%; height: 100%; border: none;" referrerpolicy="same-origin"></iframe>
+						<script src="editor.js" rel="script" type="text/javascript"></script>
 					</div>
 				</div>
 			</div>
