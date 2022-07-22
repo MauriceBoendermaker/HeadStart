@@ -47,7 +47,7 @@ foreach ($templateData as $data) {
             <li class="nav-item"><a class="nav-link" href="#services"><span><?php echo $data->getNavItem2(); ?></span></a></li>
             <li class="nav-item"><a class="nav-link" href="#portfolio"><span><?php echo $data->getNavItem3(); ?></span></a></li>
             <li class="nav-item"><a class="nav-link" href="#our-story"><span><?php echo $data->getNavItem4(); ?></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact-us"><span><?php echo $data->getNavItem5(); ?></span></a></li>
+<!--            <li class="nav-item"><a class="nav-link" href="#contact-us"><span>--><?php //echo $data->getNavItem5(); ?><!--</span></a></li>-->
         </ul>
     </div>
     <div class="parallax-content baner-content" id="home">
