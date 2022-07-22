@@ -516,8 +516,6 @@ foreach ($templateDataAll as $templateData) {
 					<div style="width: auto; height: 1000px;">
 						<iframe src="index.php" id="frame1" style="width: 100%; height: 100%; border: none;" referrerpolicy="same-origin"></iframe>
 
-						<button onmouseenter="myFunction()" onmouseleave="myFunction1()">Try it</button>
-
 
 						<script>
 
