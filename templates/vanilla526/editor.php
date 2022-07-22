@@ -503,7 +503,6 @@ foreach ($templateDataAll as $templateData) {
 								</h2>
 								<div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
 									<div class="accordion-body">
-
 										<button type="submit" name="save_style" class="btn btn-success">Bewaren</button>
 										<button type="submit" name="cancel" class="btn btn-primary">Annuleren</button>
 									</div>
