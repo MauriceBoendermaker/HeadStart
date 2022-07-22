@@ -518,18 +518,6 @@ foreach ($templateDataAll as $templateData) {
 
 						<button onmouseenter="myFunction()" onmouseleave="myFunction1()">Try it</button>
 
-						<script>
-                            function myFunction() {
-                                var iframe = document.getElementById("frame1");
-                                var elmnt = iframe.contentWindow.document.getElementById("headline");
-                                elmnt.style.visibility = "hidden";
-                            }
-                            function myFunction1() {
-                                var iframe = document.getElementById("frame1");
-                                var elmnt = iframe.contentWindow.document.getElementById("headline");
-                                elmnt.style.visibility = "visible";
-                            }
-						</script>
 
 						<script>
 
