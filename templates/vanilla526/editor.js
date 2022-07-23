@@ -185,3 +185,10 @@ function delP2HeaderCtaBtn() {
     elmnt.style.position = "static";
 }
 
+
+//
+// window.onload = function() {
+//     let myiFrame = document.getElementById("myiFrame");
+//     let doc = myiFrame.contentDocument;
+//     doc.body.innerHTML = doc.body.innerHTML + '<style></style>';
+// }
