@@ -117,3 +117,20 @@ function delP2HeaderListItem1() {
     elmnt.style.position = "static";
 }
 
+// P2HeaderListItem2
+function showP2HeaderListItem2() {
+    var iframe = document.getElementById("frame1");
+    var elmnt = iframe.contentWindow.document.getElementById("show-P2HeaderListItem2");
+    elmnt.style.position = "relative";
+    elmnt.style.borderRadius = "25px";
+    elmnt.style.boxShadow = "0 0 0 2000px rgba(0, 0, 0, 0.75)";
+    elmnt.style.transition = "ease-in-out box-shadow 0.5s";
+}
+
+function delP2HeaderListItem2() {
+    var iframe = document.getElementById("frame1");
+    var elmnt = iframe.contentWindow.document.getElementById("show-P2HeaderListItem2");
+    elmnt.style.boxShadow = "none";
+    elmnt.style.position = "static";
+}
+
