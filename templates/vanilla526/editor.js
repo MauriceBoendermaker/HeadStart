@@ -66,3 +66,20 @@ function delSubHeadline() {
     elmnt.style.position = "static";
 }
 
+// P2Header
+function showP2Header() {
+    var iframe = document.getElementById("frame1");
+    var elmnt = iframe.contentWindow.document.getElementById("show-P2Header");
+    elmnt.style.position = "relative";
+    elmnt.style.borderRadius = "25px";
+    elmnt.style.boxShadow = "0 0 0 2000px rgba(0, 0, 0, 0.75)";
+    elmnt.style.transition = "ease-in-out box-shadow 0.5s";
+}
+
+function delP2Header() {
+    var iframe = document.getElementById("frame1");
+    var elmnt = iframe.contentWindow.document.getElementById("show-P2Header");
+    elmnt.style.boxShadow = "none";
+    elmnt.style.position = "static";
+}
+
