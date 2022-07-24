@@ -204,6 +204,7 @@ foreach ($templateDataAll as $templateData) {
 									<div class="accordion-body">
 										<div class="mb-3">
 											<label for="Headline" class="form-label">Koptekst</label>
+											<input onmouseenter="showHeadline()" onmouseleave="delHeadline()" type="text" class="form-control" id="Headline" name="Headline" aria-describedby="HeadlineHelp" value="<?php echo $templateData->getHeadline(); ?>" placeholder="<?php echo $templateData->getHeadline(); ?>">
 											<div id="HeadlineHelp" class="form-text">Koptekst voor de eerste pagina</div>
 										</div>
 										<div class="mb-3">
