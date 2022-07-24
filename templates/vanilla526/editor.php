@@ -208,7 +208,6 @@ foreach ($templateDataAll as $templateData) {
 										</div>
 										<div class="mb-3">
 											<label for="StrongSubHeadline" class="form-label">Vetgedrukte subtekst</label>
-											<input type="text" class="form-control" id="StrongSubHeadline" name="StrongSubHeadline" aria-describedby="StrongSubHeadlineHelp" value="<?php echo $templateData->getStrongSubHeadline(); ?>" placeholder="<?php echo $templateData->getStrongSubHeadline(); ?>">
 											<div id="StrongSubHeadlineHelp" class="form-text">Vetgedrukte subtekst voor de eerste pagina</div>
 										</div>
 										<div class="mb-3">
