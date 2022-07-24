@@ -214,6 +214,7 @@ foreach ($templateDataAll as $templateData) {
 										</div>
 										<div class="mb-3">
 											<label for="SubHeadline" class="form-label">Subtekst</label>
+											<input onmouseenter="showSubHeadline()" onmouseleave="delSubHeadline()" type="text" class="form-control" id="SubHeadline" name="SubHeadline" aria-describedby="SubHeadlineHelp" value="<?php echo $templateData->getSubHeadline(); ?>" placeholder="<?php echo $templateData->getSubHeadline(); ?>">
 											<div id="SubHeadlineHelp" class="form-text">Subtekst voor de eerste pagina</div>
 										</div>
 										<div class="mb-3">
