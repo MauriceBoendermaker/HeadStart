@@ -216,7 +216,6 @@ foreach ($templateDataAll as $templateData) {
 										</div>
 										<div class="mb-3">
 											<label for="HeaderCtaBtn" class="form-label">Call-to-action knop</label>
-											<input type="text" class="form-control" id="HeaderCtaBtn" name="HeaderCtaBtn" aria-describedby="HeaderCtaBtnHelp" value="<?php echo $templateData->getHeaderCtaBtn(); ?>" placeholder="<?php echo $templateData->getHeaderCtaBtn(); ?>">
 											<div id="HeaderCtaBtnHelp" class="form-text">Call-to-action knop</div>
 										</div>
 										<button type="submit" name="save_header" class="btn btn-success">Bewaren</button>
