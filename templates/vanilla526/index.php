@@ -70,10 +70,10 @@ foreach ($templateData as $data) {
                         <div class="line-dec"></div>
                         <p><?php echo $data->getP2HeaderText(); ?></p>
                         <ul>
-                            <li>-  <?php echo $data->getP2HeaderListItem1(); ?></li>
-                            <li>-  <?php echo $data->getP2HeaderListItem2(); ?></li>
-                            <li>-  <?php echo $data->getP2HeaderListItem3(); ?></li>
-                            <li>-  <?php echo $data->getP2HeaderListItem4(); ?></li>
+                            <li id="show-P2HeaderListItem1">-  <?php echo $data->getP2HeaderListItem1(); ?></li>
+                            <li id="show-P2HeaderListItem2">-  <?php echo $data->getP2HeaderListItem2(); ?></li>
+                            <li id="show-P2HeaderListItem3">-  <?php echo $data->getP2HeaderListItem3(); ?></li>
+                            <li id="show-P2HeaderListItem4">-  <?php echo $data->getP2HeaderListItem4(); ?></li>
                         </ul>
                         <div class="primary-button">
                             <a href="#portfolio"><?php echo $data->getP2HeaderCtaBtn(); ?></a>
