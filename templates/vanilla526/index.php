@@ -56,7 +56,7 @@ foreach ($templateData as $data) {
                 <h1 id="headline"><?php echo $data->getHeadline(); ?></h1>
                 <span><em><?php echo $data->getStrongSubHeadline(); ?></em> <?php echo $data->getSubHeadline(); ?></span>
                 <div class="primary-button">
-                    <a href="#services"><?php echo $data->getHeaderCtaBtn(); ?></a>
+                    <a id="show-HeaderCtaBtn" href="#services"><?php echo $data->getHeaderCtaBtn(); ?></a>
                 </div>
             </div>
         </div>
@@ -120,7 +120,6 @@ foreach ($templateData as $data) {
             <div class="row">
                 <div class="col-md-12">
                     <div id="owl-testimonials" class="owl-carousel owl-theme">
-
                         <div class="item">
                             <div class="testimonials-item">
                                 <a href="img/<?php echo $data->getCarouselImg1(); ?>" data-lightbox="image-1"><img src="img/<?php echo $data->getCarouselImg1(); ?>" alt="<?php echo $data->getCarouselImg1(); ?>"></a>
