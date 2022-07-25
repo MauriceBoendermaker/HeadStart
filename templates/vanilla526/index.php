@@ -76,7 +76,7 @@ foreach ($templateData as $data) {
                             <li id="show-P2HeaderListItem4">-  <?php echo $data->getP2HeaderListItem4(); ?></li>
                         </ul>
                         <div class="primary-button">
-                            <a href="#portfolio"><?php echo $data->getP2HeaderCtaBtn(); ?></a>
+                            <a id="show-P2HeaderCtaBtn" href="#portfolio"><?php echo $data->getP2HeaderCtaBtn(); ?></a>
                         </div>
                     </div>
                 </div>
