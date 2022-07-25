@@ -68,7 +68,7 @@ foreach ($templateData as $data) {
                     <div class="left-text">
                         <h4 id="show-P2Header"><?php echo $data->getP2Header(); ?></h4>
                         <div class="line-dec"></div>
-                        <p><?php echo $data->getP2HeaderText(); ?></p>
+                        <p id="show-P2HeaderText"><?php echo $data->getP2HeaderText(); ?></p>
                         <ul>
                             <li id="show-P2HeaderListItem1">-  <?php echo $data->getP2HeaderListItem1(); ?></li>
                             <li id="show-P2HeaderListItem2">-  <?php echo $data->getP2HeaderListItem2(); ?></li>
