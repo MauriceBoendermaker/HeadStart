@@ -1,0 +1,161 @@
+@import '_variables.scss';
+
+::selection {
+  color: black;
+  background: $hover-color;
+}
+
+* {
+  font-family: $body-font-family;
+  line-height: normal;
+}
+
+body {
+  background-color: $body-color;
+  font-family: $body-font-family;
+}
+
+section {
+  background-color: $body-color;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: $body-font-bold;
+  margin: 0px 0;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: $body-font-bold;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: $body-font-bold;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: $body-font-bold;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: $body-font-bold;
+  padding-bottom: 10px;
+}
+
+p, a {
+  font-size: 20px;
+  color: $body-text-color;
+  margin-bottom: 0rem !important;
+}
+
+ul {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+button, input[type="submit"], input[type="reset"], input:focus {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+aside {
+  display: initial;
+}
+
+a {
+  color: $body-text-color;
+  font-weight: $body-font-normal;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $hover-color;
+}
+
+.tag {
+  color: #000000;
+  background-color: $tag-color;
+  font-weight: $body-font-normal;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  display: inline-block;
+  padding: 8px 20px;
+}
+
+.divider-mobile {
+  background-color: #D6D6D6;
+  width: auto;
+  height: 1px;
+  margin: 30px 0;
+}
+
+.vertical-line {
+  border-right: 1px solid #D6D6D6;
+  margin-right: 60px;
+  margin-left: 60px;
+  width: fit-content;
+}
+
+.hidden-for-pc {
+  display: none;
+}
+
+.hidden-for-mobile {
+  display: none;
+}
+
+.hidden-for-pc-s3 {
+  display: none;
+}
+
+// Warning banner
+.warning_banner {
+  background: #f7a7a3;
+}
+
+.banner_content {
+  padding: 5px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner_text {
+  flex-grow: 1;
+  line-height: 1.4;
+}
+
+.banner_close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner_text, .banner_close > span {
+  color: #000;
+}
+
+.pre-footer-cta {
+  text-align: center;
+  margin: 0 auto;
+  align-content: center;
+}
