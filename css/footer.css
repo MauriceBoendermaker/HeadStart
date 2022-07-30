@@ -509,10 +509,10 @@ footer {
 
 .footer-01:after {
   position: absolute;
-  top: -300px;
+  top: -250px;
   left: -100px;
-  width: 800px;
-  height: 800px;
+  width: 750px;
+  height: 750px;
   content: '';
   background: url("./images/blob-shape.png");
   background-position: center center;
