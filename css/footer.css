@@ -521,7 +521,7 @@ footer {
   opacity: .05; }
 
 .footer-01 a {
-  color: #7f72e4; }
+  color: #99DFFF; }
 
 .footer-01 p {
   color: rgba(255, 255, 255, 0.6); }
@@ -543,7 +543,7 @@ footer {
   content: '';
   width: 40px;
   height: 2px;
-  background: #7f72e4; }
+  background: #99DFFF; }
 
 .footer-01 ul.list-unstyled li a {
   color: rgba(255, 255, 255, 0.7); }
@@ -552,7 +552,7 @@ footer {
   color: rgba(255, 255, 255, 0.7); }
 
 .footer-01 .block-21 .meta > div a {
-  color: #7f72e4; }
+  color: #99DFFF; }
 
 .footer-01 .block-23 ul li {
   color: rgba(255, 255, 255, 0.6); }
@@ -564,7 +564,7 @@ footer {
   color: rgba(255, 255, 255, 0.4); }
 
 .footer-01 .ftco-footer-social li a {
-  background: #7f72e4;
+  background: #99DFFF;
   color: #fff; }
 
 /*# sourceMappingURL=footer.css.map */

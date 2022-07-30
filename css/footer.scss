@@ -655,7 +655,7 @@ footer {
 }
 
 .footer-01 a {
-  color: #7f72e4;
+  color: $active-color;
 }
 
 .footer-01 p {
@@ -681,7 +681,7 @@ footer {
   content: '';
   width: 40px;
   height: 2px;
-  background: #7f72e4;
+  background: $active-color;
 }
 
 .footer-01 ul.list-unstyled li a {
@@ -693,7 +693,7 @@ footer {
 }
 
 .footer-01 .block-21 .meta > div a {
-  color: #7f72e4;
+  color: $active-color;
 }
 
 .footer-01 .block-23 ul li {
@@ -709,6 +709,6 @@ footer {
 }
 
 .footer-01 .ftco-footer-social li a {
-  background: #7f72e4;
+  background: $active-color;
   color: #fff;
 }
