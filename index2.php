@@ -20,6 +20,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/style2.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/nav.css"/>
+	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/footer.css"/>
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
