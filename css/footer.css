@@ -514,7 +514,7 @@ footer {
   width: 750px;
   height: 750px;
   content: '';
-  background: url("./images/blob-shape.png");
+  background: url(../images/blob-shape.png);
   background-position: center center;
   background-size: cover;
   z-index: -1;
