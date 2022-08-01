@@ -3,12 +3,11 @@
   background: #99DFFF; }
 
 * {
-  font-family: Baloo Tamma 2;
   line-height: normal; }
 
 body {
   background-color: #FFFFFF;
-  font-family: Baloo Tamma 2; }
+  font-family: "Baloo Tamma 2", cursive; }
 
 section {
   background-color: #FFFFFF;
@@ -71,5 +70,8 @@ a {
 a:hover {
   text-decoration: none;
   color: #99DFFF; }
+
+.hidden-for-pc {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
