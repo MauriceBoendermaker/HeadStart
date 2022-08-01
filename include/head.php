@@ -32,20 +32,19 @@ function pageTitle() {
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="/css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/nav/nav.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/footer/footer.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/pricing/pricing.css"/>
 
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/home.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/nav.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/footer.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/media.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/all_media.css"/>
-	<link rel="stylesheet" type="text/css" href="/css/writing.css"/>
+<!--	<link rel="stylesheet" type="text/css" href="/css/style.css"/>-->
+<!--	<link rel="stylesheet" type="text/css" href="/css/home.css"/>-->
+<!--	<link rel="stylesheet" type="text/css" href="/css/nav.css"/>-->
+<!--	<link rel="stylesheet" type="text/css" href="/css/footer.css"/>-->
+<!--	<link rel="stylesheet" type="text/css" href="/css/media.css"/>-->
+<!--	<link rel="stylesheet" type="text/css" href="/css/all_media.css"/>-->
+<!--	<link rel="stylesheet" type="text/css" href="/css/writing.css"/>-->
 
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
