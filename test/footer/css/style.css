@@ -398,7 +398,7 @@ h3 {
   .container {
     min-width: 992px !important; } }
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Baloo Tamma 2", Arial, sans-serif;
   font-size: 15px;
   line-height: 1.8;
   font-weight: normal; }
@@ -415,7 +415,7 @@ a:hover, a:focus {
 h2, h3 {
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Poppins", Arial, sans-serif; }
+  font-family: "Baloo Tamma 2", Arial, sans-serif; }
 
 .img {
   background-size: cover;
