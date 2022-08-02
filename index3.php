@@ -3,7 +3,10 @@
 <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
 
 <style>
-    body{margin-top:20px;}
+    body {
+        margin-top: 20px;
+    }
+
     .price_plan_area {
         position: relative;
         z-index: 1;
