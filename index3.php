@@ -20,16 +20,19 @@
         background-color: #ffffff;
         padding: 3rem 4rem;
     }
+
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single_price_plan {
             padding: 3rem;
         }
     }
+
     @media only screen and (max-width: 575px) {
         .single_price_plan {
             padding: 3rem;
         }
     }
+
     .single_price_plan::after {
         position: absolute;
         content: "";
@@ -41,12 +44,14 @@
         z-index: 1;
         left: 0;
     }
+
     .single_price_plan .title {
         text-transform: capitalize;
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
         margin-bottom: 2rem;
     }
+
     .single_price_plan .title span {
         color: #ffffff;
         padding: 0.2rem 0.6rem;
@@ -57,23 +62,28 @@
         margin-bottom: 0.5rem;
         border-radius: 0.25rem;
     }
+
     .single_price_plan .title h3 {
         font-size: 1.25rem;
     }
+
     .single_price_plan .title p {
         font-weight: 300;
         line-height: 1;
         font-size: 14px;
     }
+
     .single_price_plan .title .line {
         width: 80px;
         height: 4px;
         border-radius: 10px;
         background-color: #3f43fd;
     }
+
     .single_price_plan .price {
         margin-bottom: 1.5rem;
     }
+
     .single_price_plan .price h4 {
         position: relative;
         z-index: 1;
@@ -88,10 +98,12 @@
         background-image: -webkit-gradient(linear, left top, right top, from(#e24997), to(#2d2ed4));
         background-image: linear-gradient(90deg, #e24997, #2d2ed4);
     }
+
     .single_price_plan .description {
         position: relative;
         margin-bottom: 1.5rem;
     }
+
     .single_price_plan .description p {
         line-height: 16px;
         margin: 0;
@@ -104,19 +116,23 @@
         -ms-grid-row-align: center;
         align-items: center;
     }
+
     .single_price_plan .description p i {
         color: #2ecc71;
         margin-right: 0.5rem;
     }
+
     .single_price_plan .description p .lni-close {
         color: #e74c3c;
     }
+
     .single_price_plan.active,
     .single_price_plan:hover,
     .single_price_plan:focus {
         -webkit-box-shadow: 0 6px 50px 8px rgba(21, 131, 233, 0.15);
         box-shadow: 0 6px 50px 8px rgba(21, 131, 233, 0.15);
     }
+
     .single_price_plan .side-shape img {
         position: absolute;
         width: auto;
