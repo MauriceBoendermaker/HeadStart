@@ -171,7 +171,8 @@
 		<div class="row justify-content-center">
 			<div class="col-12 col-sm-8 col-lg-6">
 				<!-- Section Heading-->
-				<div class="section-heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+				<div class="section-heading text-center wow fadeInUp" data-wow-delay="0.2s"
+				     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 					<h6>Pricing Plans</h6>
 					<h3>Let's find a way together</h3>
 					<p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
@@ -182,7 +183,8 @@
 		<div class="row justify-content-center">
 			<!-- Single Price Plan Area-->
 			<div class="col-12 col-sm-8 col-md-6 col-lg-4">
-				<div class="single_price_plan wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+				<div class="single_price_plan wow fadeInUp" data-wow-delay="0.2s"
+				     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 					<div class="title">
 						<h3>Start Up</h3>
 						<p>Start a trial</p>
@@ -203,7 +205,8 @@
 			</div>
 			<!-- Single Price Plan Area-->
 			<div class="col-12 col-sm-8 col-md-6 col-lg-4">
-				<div class="single_price_plan active wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+				<div class="single_price_plan active wow fadeInUp" data-wow-delay="0.2s"
+				     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 					<!-- Side Shape-->
 					<div class="side-shape"><img src="https://bootdey.com/img/popular-pricing.png" alt=""></div>
 					<div class="title"><span>Popular</span>
@@ -226,7 +229,8 @@
 			</div>
 			<!-- Single Price Plan Area-->
 			<div class="col-12 col-sm-8 col-md-6 col-lg-4">
-				<div class="single_price_plan wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+				<div class="single_price_plan wow fadeInUp" data-wow-delay="0.2s"
+				     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 					<div class="title">
 						<h3>Enterprise</h3>
 						<p>Unlimited Possibilities</p>
