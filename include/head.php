@@ -33,6 +33,7 @@ function pageTitle() {
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/index.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/nav/nav.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/footer/footer.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/pricing/pricing.css"/>
