@@ -19,9 +19,6 @@
 						tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem
 						malesuada magna mollis euismod. Donec sed odio dui.
 					</p>
-					<p>
-						<a class="btn" href="#">View details »</a>
-					</p>
 				</div>
 				<div class="col-md-6">
 					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
