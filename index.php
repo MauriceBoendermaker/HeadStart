@@ -20,7 +20,8 @@
 						malesuada magna mollis euismod. Donec sed odio dui.
 					</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 timeline-section">
+					<?php include "include/timeline.php" ?>
 				</div>
 			</div>
 		</div>
