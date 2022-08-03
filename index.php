@@ -36,7 +36,11 @@
 		<div class="col-md-2">
 		</div>
 	</div>
-	<?php include "include/price_table.php" ?>
+	<div class="row">
+		<div class="col-md-12 price-table-section">
+			<?php include "include/price_table.php" ?>
+		</div>
+	</div>
 <!--	<div class="row">-->
 <!--		<div class="col-md-2">-->
 <!--		</div>-->
