@@ -21,7 +21,6 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
 				</div>
 			</div>
 		</div>
