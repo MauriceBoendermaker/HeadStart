@@ -40,6 +40,8 @@ function pageTitle() {
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/timeline/timeline.css"/>
 	<link rel="stylesheet" type="text/css" href="/../../Werk/HeadStart/css/services/services.css"/>
 
+	<!-- Scripts -->
+	<script rel="script" type="text/javascript" src="/../../Werk/HeadStart/js/javascript.js"></script>
 
 
 <!--	<link rel="stylesheet" type="text/css" href="/css/style.css"/>-->
