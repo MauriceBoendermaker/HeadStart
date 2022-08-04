@@ -7,7 +7,7 @@
 		</div>
 		<div class="col-md-8">
 			<h3 class="text-center">
-				h3. Lorem ipsum dolor sit amet.
+				<?php include "include/announcement.php" ?>
 			</h3>
 			<div class="row">
 				<div class="col-md-6">
