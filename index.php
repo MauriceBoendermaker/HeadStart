@@ -9,6 +9,9 @@
 			<h3 class="text-center">
 				<?php include "include/announcement.php" ?>
 			</h3>
+			<div class="page-heading">
+				<h1><span>Heading Tagline</span> Heading <em>Style</em> Four</h1>
+			</div>
 			<div class="row">
 				<div class="col-md-6">
 					<h2>
