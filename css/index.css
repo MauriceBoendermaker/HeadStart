@@ -63,18 +63,18 @@ h1 span {
 h1 em {
   font-weight: 600; }
 
-.four h1 {
+.page-heading h1 {
   text-align: center;
-  padding-bottom: 0.7em; }
+  padding-bottom: 5px; }
 
-.four h1 span {
+.page-heading h1 span {
   font-weight: 300;
   word-spacing: 3px;
   line-height: 2em;
   padding-bottom: 0.35em;
   color: rgba(0, 0, 0, 0.5); }
 
-.four h1:before {
+.page-heading h1:before {
   position: absolute;
   left: 0;
   bottom: 0;
